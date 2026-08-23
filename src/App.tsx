@@ -82,9 +82,9 @@ function App() {
           {/* Logo */}
           <a href="#inicio" className="flex items-center group">
             <img
-              src="/LcLogo.png"
+              src="/LcLogo2.png"
               alt="LC Productora"
-              className={`h-12 sm:h-14 md:h-16 w-auto object-cover object-top transition-opacity ${
+              className={`h-10 sm:h-11 md:h-12 w-auto object-contain transition-opacity ${
                 scrolled ? 'opacity-100' : 'opacity-90 group-hover:opacity-100'
               }`}
             />

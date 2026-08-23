@@ -14,9 +14,9 @@ export default function Footer() {
           <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
             <div className="text-center sm:text-left">
               <img
-                src="/LcLogo.png"
+                src="/LcLogo2.png"
                 alt="LC Productora"
-                className="h-14 sm:h-16 w-auto object-cover object-top"
+                className="h-12 sm:h-14 w-auto object-contain"
               />
               <span className="block text-[8px] tracking-[0.15em] uppercase mt-1" style={{ color: 'var(--color-scene-600)' }}>
                 Productora de Eventos
