@@ -44,7 +44,7 @@ export default function Nosotros() {
               <p className="text-white/70 text-base sm:text-lg leading-relaxed mb-6">
                 No somos una productora más. Nos diferencian los detalles que otros ignoran: la iluminación perfecta, el timing justo, cada elemento en su lugar.
               </p>
-              <p className="text-white/50 text-sm sm:text-base leading-relaxed mb-10">
+              <p className="hidden sm:block text-white/50 text-sm sm:text-base leading-relaxed mb-10">
                 Creemos que la excelencia está en lo que parece invisible: el momento exacto en que suena la música, la temperatura ideal del plato, la disposición que nadie nota pero todos sienten. Eso es lo que nos define.
               </p>
               <div className="flex gap-12">
@@ -72,7 +72,7 @@ export default function Nosotros() {
 
           {/* Right: Image */}
           <Reveal delay={3}>
-            <div className="rounded-2xl overflow-hidden aspect-[4/3] -mt-8">
+            <div className="hidden md:block rounded-2xl overflow-hidden aspect-[4/3] -mt-8">
               <div
                 className="w-full h-full bg-cover bg-center"
                 style={{

@@ -118,7 +118,7 @@ html, body, #root {
 }
 
 .hero-zoom {
-  animation: heroZoom 13s ease-out forwards;
+  animation: heroZoom 6s ease-out forwards;
 }
 
 @media (prefers-reduced-motion: reduce) {

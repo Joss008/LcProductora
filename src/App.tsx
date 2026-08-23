@@ -157,45 +157,43 @@ function App() {
         </div>
 
         {/* HERO COPY */}
-        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-10 pt-32 sm:pt-40 md:pt-48 grid grid-cols-1 md:grid-cols-12 gap-6">
-          <div className="md:col-span-6 flex flex-col text-center md:text-left items-center md:items-start">
-            <span
-              className="hidden sm:block text-[10px] sm:text-xs font-medium tracking-[0.2em] uppercase mb-4"
-              style={{ color: 'var(--color-accent)' }}
-            >
-              LC Productora
-            </span>
-            <h1
-              className="font-normal leading-[0.95] text-white text-[1.75rem] sm:text-4xl md:text-5xl lg:text-[4.75rem] xl:text-[5.25rem]"
-              style={{ fontFamily: 'var(--font-editorial)', letterSpacing: '-0.035em' }}
-            >
-              Detrás de cada evento{' '}
-              <span style={{ color: 'var(--color-accent)' }}>
-                hay un equipo
-                <br className="hidden sm:block" /> apasionado
-              </span>
-            </h1>
-            <p className="hidden sm:block mt-6 sm:mt-8 text-white/60 text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl">
-              Cada evento es una historia única. Nosotros nos encargamos de que esa historia sea inolvidable, cuidando cada detalle para que tú solo tengas que disfrutar.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-6 sm:mt-8 w-full sm:w-auto justify-center md:justify-start">
-              <button
-                onClick={() => scrollTo('#servicios')}
-                className="bg-white hover:bg-white/90 text-[#111111] text-sm font-semibold px-8 py-3 rounded-full transition-colors"
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center pt-56 sm:pt-64 md:pt-72 lg:pt-48">
+            <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
+              <span
+                className="hidden sm:block text-[10px] sm:text-xs font-medium tracking-[0.2em] uppercase"
+                style={{ color: 'var(--color-accent)' }}
               >
-                NUESTROS SERVICIOS
-              </button>
+                LC Productora
+              </span>
+              <h1
+                className="font-extrabold text-5xl sm:text-5xl lg:text-6xl tracking-tight leading-[1.1]"
+                style={{ fontFamily: 'var(--font-editorial)' }}
+              >
+                <span className="text-white block">Detrás de cada evento</span>
+                <span className="block mt-1" style={{ color: 'var(--color-accent)' }}>hay un equipo apasionado</span>
+              </h1>
+              <p className="text-white/60 text-base sm:text-lg max-w-2xl leading-relaxed pt-2">
+                Cada evento es una historia única. Nosotros nos encargamos de que esa historia sea inolvidable.
+              </p>
+              <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-4">
+                <button
+                  onClick={() => scrollTo('#servicios')}
+                  className="bg-white hover:bg-white/90 text-[#111111] font-semibold text-sm sm:text-base px-7 py-3.5 rounded-full transition-all duration-200 active:scale-[0.97]"
+                >
+                  NUESTROS SERVICIOS
+                </button>
+              </div>
             </div>
           </div>
         </div>
-
-        
 
         {/* BOTTOM-RIGHT */}
         <div className="hidden sm:flex absolute right-6 md:right-10 bottom-8 md:bottom-10 z-10 items-center gap-2 text-white/70 text-sm">
           <ChevronRight className="w-4 h-4" />
           <button onClick={() => scrollTo('#nosotros')} className="font-medium hover:text-white transition-colors">
-            Nuestro proceso
+            
+            
           </button>
         </div>
       </section>
