@@ -13,11 +13,11 @@ export default function Footer() {
         <Reveal>
           <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
             <div className="text-center sm:text-left">
-              <span
-                className="text-xl sm:text-2xl font-semibold tracking-tight font-editorial text-white"
-              >
-                LC<sup className="text-[10px] sm:text-xs font-medium">®</sup>
-              </span>
+              <img
+                src="/LcLogo.png"
+                alt="LC Productora"
+                className="h-14 sm:h-16 w-auto object-cover object-top"
+              />
               <span className="block text-[8px] tracking-[0.15em] uppercase mt-1" style={{ color: 'var(--color-scene-600)' }}>
                 Productora de Eventos
               </span>

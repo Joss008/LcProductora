@@ -81,13 +81,13 @@ function App() {
         >
           {/* Logo */}
           <a href="#inicio" className="flex items-center group">
-            <span
-              className={`text-lg sm:text-xl md:text-2xl font-semibold tracking-tight font-editorial transition-colors ${
-                scrolled ? 'text-white' : 'text-white/90 group-hover:text-white'
+            <img
+              src="/LcLogo.png"
+              alt="LC Productora"
+              className={`h-12 sm:h-14 md:h-16 w-auto object-cover object-top transition-opacity ${
+                scrolled ? 'opacity-100' : 'opacity-90 group-hover:opacity-100'
               }`}
-            >
-              LC<sup className="text-[10px] sm:text-xs font-medium">®</sup>
-            </span>
+            />
           </a>
 
           {/* Desktop nav - centered */}
