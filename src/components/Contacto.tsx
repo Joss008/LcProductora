@@ -181,7 +181,7 @@ export default function Contacto() {
             <div className="space-y-4">
               <Reveal delay={3}>
                 <a
-                  href="tel:+52999999999"
+                  href="tel:+51960597159"
                   className="flex items-center gap-4 p-4 rounded-xl transition-all duration-300 hover:scale-[1.02] hover:bg-white/[0.03]"
                   style={{ border: '1px solid rgba(255,255,255,0.06)' }}
                 >
@@ -190,7 +190,7 @@ export default function Contacto() {
                       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
                     </svg>
                   </div>
-                  <span className="text-white text-sm font-semibold">+51 99 9999 9999</span>
+                  <span className="text-white text-sm font-semibold">+51 960 597 159</span>
                 </a>
               </Reveal>
 
