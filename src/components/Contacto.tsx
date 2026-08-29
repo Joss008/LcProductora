@@ -181,7 +181,7 @@ export default function Contacto() {
             <div className="space-y-4">
               <Reveal delay={3}>
                 <a
-                  href="tel:+51960597159"
+                  href="tel:+51999999999"
                   className="flex items-center gap-4 p-4 rounded-xl transition-all duration-300 hover:scale-[1.02] hover:bg-white/[0.03]"
                   style={{ border: '1px solid rgba(255,255,255,0.06)' }}
                 >
