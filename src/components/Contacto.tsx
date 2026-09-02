@@ -82,7 +82,7 @@ export default function Contacto() {
                   className="text-xl sm:text-2xl font-semibold text-white mb-6"
                   style={{ fontFamily: 'var(--font-editorial)' }}
                 >
-                  Cuéntanos sobre tu evento
+                  Contactanos para hacer tu evento realidad
                 </h3>
 
                 <div className="space-y-4">
